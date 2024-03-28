@@ -9,7 +9,7 @@ const body = document.querySelector("body");
 stopBtn.disabled = true
 
 let colorChangeInterval = null;
-
+ 
 // function to start the color change
 function startColor() {
     colorChangeInterval = setInterval(() => {
